@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentSphere | Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+   
+    <div class="login-container">
+        
+        <header>
+            <div class="company-logo">
+            <img src="" alt="companylog">
+            </div>
+
+             <div class="nav-bar">
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="./services.html">Services</a></li>
+             <li><a href="./contacts.html">Contact</a></li>
+             <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        </header>
+
+        <div class="login-panel">
+                <div class=" background glow-text">
+                    RentSphere
+                </div>
+
+            <!-- <div class="login-form">
+                <form action="" id="login">
+                    <h3>LOGIN</h3><br>
+                    <label for="user-id" id="username">User Id</label>
+                    <input type="tel" placeholder="Enter your phone number" class="input-box"  id="user-id" required>
+                    <button id="chg-login-id">Login with email address</button>
+
+                    <label for="password" id="pass-word">password</label>
+                    <input type="password" class="input-box" id="password" required><br>
+                    <button id="lgn-btn">Login</button><br>
+                </form>
+
+                 <div class="sign-up">   
+                        <a href="./registration.html" id="msg" >Don't Have an account?</a><br>
+                        <a href="./registration.html" id="sign-up-link">Sign Up</a>
+                        </div>
+            </div> -->
+
+            <div class="login-form">
+                <form action="vrs_login.php" method="get" id="login">
+                    <div class="loginMsg">
+                        <h3>Login</h3>
+                    </div>
+
+                    <div class="userId">
+                    <label for="user-id" id="username">User Id</label>
+                    <input type="email" placeholder="Enter your email" class="input-box" name="email"  id="user-id" >
+                    <!-- <button type="button" id="chg-login-id">Login with email address</button> -->
+                    </div>
+
+                    <div class="password-div">
+                     <label for="password" id="pass-word">password</label>
+                    <input type="password" class="input-box"  name="password" id="password" >
+                    </div>
+
+                    <div class="login-btn">
+                        <button type="submit" id="lgn-btn"  name="submit">Login</button>
+                    </div>
+                </form>
+                <div class="sign-up">   
+                        <a href="./registration.html" id="msg" >Don't Have an account?</a><br>
+                        <a href="./registration.html" id="sign-up-link">Sign Up</a>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/registration.js"></script>
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

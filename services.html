@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .services-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background-color: #fafafa;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+
+    .service-card p {
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="services-container">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+
+    <div class="service-card">
+      <h3>Bike Rental</h3>
+      <p>Affordable and flexible two-wheeler rentals for daily or long-distance travel.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Car Rental</h3>
+      <p>Choose from a variety of cars for personal or family travel at competitive rates.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Tour Packages</h3>
+      <p>Explore Nepal with our guided tour packages and vehicle arrangements.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Airport Pickup/Drop</h3>
+      <p>Reliable airport transportation services, available 24/7 with prior booking.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Hourly Rental</h3>
+      <p>Need a vehicle just for a few hours? Book it quickly at hourly rates.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Corporate Rentals</h3>
+      <p>Vehicles for business travel, meetings, and long-term employee use.</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
